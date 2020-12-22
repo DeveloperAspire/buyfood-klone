@@ -13,3 +13,49 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-flow: row nowrap;
+    font-size: 14px;
+    font-weight: 400;
+ 
+}
+li{
+    margin: 0.8rem;
+}
+/* UTILITIES CLASS */
+.btn-lg{
+    color:var(--dark-blue);
+    background: var(--yellow);
+    padding: 1rem 2.3rem;
+    font-size: 14px;
+    font-weight: 500;
+    transform: translateY(-30%);
+    border-radius: 1rem;
+   
+}
+
+
+/* SHOWCASE AREA*/
+.showcase{
+    background: var(--light-blue);
+    color:#fff;
+    height:100vh;
+    position: relative;
+}
+.showcase-top{
+    position: relative;
+    height:20%;
+
+}
+.top-logo{
+    position: absolute;
+    top:40%;
+    left:5%;
+}
+.showcase-menu{
+    position: absolute;
+    left:55%;
+    top:40%;
+}
