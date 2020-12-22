@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
-
+@font-face {
+    font-family: "br_omega";
+    src: url("fonts/br_omega-medium-webfont.woff");
+    
+    }
 :root{
     --light-blue:#6263D5;
     --dark-blue:#171D49;
@@ -13,7 +16,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'br_omega', sans-serif;
 }
 ul{
     list-style-type: none;
@@ -56,7 +59,7 @@ li{
     font-weight: 400;
 }
 .text-md{
-    font-size: 36px;
+    font-size: 44px;
 }
 .headings{
     font-size: 36px;
@@ -134,4 +137,48 @@ li{
     font-weight: 400;
     color:var(--text-blue);
     margin-top:0.5rem;
+}
+
+/* HOW IT WORKS */
+.how-works{
+    background: var(--dark-blue);
+    color:white;
+    height: 180vh;
+    padding:3rem;
+    position: relative;
+    overflow: hidden;
+}
+.how-works-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+    line-height: 1.5;
+}
+.how-works-text{
+    margin-top: 5rem;
+}
+.how-works-text p, .how-works-text2 p{
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    color:#D2CDCD;
+}
+.why-text-dash{
+    width: 1000px;
+    height: 80vh;
+    position: absolute;
+    left: 60%;
+}
+.why-text-phone{
+    width:500px;
+    margin-top: 6rem;
+}
+.how-works-text2{
+    margin-top: 14rem;
+    margin-right: 7rem;
+
+}
+footer{
+    padding:1rem;
+    height: 20vh;
 }
