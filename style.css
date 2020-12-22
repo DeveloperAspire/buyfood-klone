@@ -5,6 +5,7 @@
     --light-blue:#6263D5;
     --dark-blue:#171D49;
     --yellow:#FEC959;
+    --text-blue:#9B8EAF;
 }
 *{
     box-sizing: border-box;
@@ -50,9 +51,16 @@ li{
 .text-lg{
     font-size: 52px;
 }
-.text-md{
+.text-sm{
     font-size: 18px;
     font-weight: 400;
+}
+.text-md{
+    font-size: 36px;
+}
+.headings{
+    font-size: 36px;
+    text-align: center;
 }
 
 
@@ -104,4 +112,26 @@ li{
     top:-9%;
     left:60%;
 }
-
+/* WHY FOOD SECTION */
+.why-food{
+    background: #fff;
+    height: 70vh;
+    padding:3rem;
+    color:var(--dark-blue);
+}
+.why-food-content{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:3rem;
+    margin-top: 3rem;
+}
+.why-food-text h6{
+    font-size: 18px;
+    font-weight: 500;
+}
+.why-food-text p{
+    font-size: 14px;
+    font-weight: 400;
+    color:var(--text-blue);
+    margin-top:0.5rem;
+}
