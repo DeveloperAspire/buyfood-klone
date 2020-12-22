@@ -237,7 +237,15 @@ footer{
 .cancel{
     position: fixed;
     top:5%;
-    left:100%;
+    left:80%;
+}
+.show{
+    display:block;
+    background: var(--dark-blue);
+    position: fixed;
+    height:100vh;
+    z-index: 1;
+    width:100vw;
 }
 
 /* MOBILE RESPONSIVENESS */
